@@ -18,6 +18,7 @@ form.addEventListener("submit", (e) => {
 
   createdNotes.push(note);
   textarea.value = "";
+  textarea.focus()
   showNotes();
 });
 
@@ -42,7 +43,7 @@ function showNotes() {
     close.classList.add("close");
     close.innerHTML = "&times";
     close.addEventListener("click", () => {
-      createdNotes.splice(note.position, 1);
+      createdNotes.splice(note.position - 1, 1);
       showNotes();
     });
 
