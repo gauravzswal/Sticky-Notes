@@ -1,3 +1,3 @@
-Here is the Hostel Link Of this Project
+*** Here is the Hostel Link Of this Project ***
 
-http://www.sticky-notes-gauravzswal.vercel.app/
+     sticky-notes-gauravzswal.vercel.app/
